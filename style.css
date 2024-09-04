@@ -1,0 +1,963 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(168, 165, 165);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(70, 98, 190);
+    width: 1600px;
+    height: 2395px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    width: 1300px;
+    height: 2195px;
+    display: flex;
+}
+
+.box1 {
+    width: 1300px;
+    height: 80px;
+    display: flex;
+}
+
+.box1 .logo {
+    margin-top: 13px;
+    margin-left: 30px;
+}
+
+.box1 .ul1 {
+   position: relative;
+   display: flex;
+   margin-left: 155px;
+   width: 980px;
+}
+
+.box1 .ul1 li {
+   display: flex;
+   align-items: center;
+}
+
+.box1 .ul1 li a {
+    color: rgba(0, 0, 0, 0.6984);
+    font-size: 16px;
+    font-family: "Actor";
+    padding: 30px 25px 29px 25px;
+    transition: 0.4s;
+}
+
+.box1 .ul1 li a:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(234, 71, 55, 1);
+}
+
+.search {
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right: 95px;
+    width: 35px;
+    height: 35px;
+    margin-top: 23px;
+    margin-left: 290px;
+    border-radius: 27px;
+    border: none;
+    outline: none;
+    transition: all 0.4s;
+}  
+
+.search:hover {
+    transform: scale(1.2);
+}
+
+
+.box1 input {
+    position: absolute;
+    top: 23px;
+    right: 135px;
+    background-color: rgba(231, 231, 231, 0.792);
+    display: none;
+    width: 200px;
+    height: 35px;
+    font-family: "Actor";
+    font-weight: 300;
+    font-size: 16px;
+    border-radius: 27px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+
+.box1 .sear {
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+}
+
+.box1 .ava {
+    position: absolute;
+    right: 38px;
+    margin-top: 19px;
+    width: 42px;
+    height: 42px;
+}
+
+.box1 .ov4 {
+    position: absolute;
+    top: 12px;
+    right: 34px;
+    width: 18px;
+    height: 18px;
+}
+
+.box1 .png8 {
+    position: absolute;
+    top: 14px;
+    right: 32px;
+    width: 18px;
+    height: 16px;
+}
+
+.box2 {
+    position: absolute;
+    top: 83px;
+    left: 0px;
+    width: 1300px;
+    height: 370px;
+    display: grid;
+    grid-template-columns: 35px 252px 252px 252px 252px 250px;
+    grid-template-rows: 368px;
+}
+
+.box2 .div2 {
+    border: 4px solid rgba(255, 255, 255, 1);
+}
+
+.box2 .divborder {
+    border-left: none;
+}
+
+.box2 .div1 {
+    border-top: 4px solid rgba(255, 255, 255, 1);
+    position: relative;
+}
+
+.box2 .div2:hover::before {
+    content: "";
+    position: absolute;
+    width: 252px;
+    height: 368px;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+.box2 .divcolor {
+    height: 369px;
+    background-color: rgba(41, 152, 226, 1);
+}
+
+.imgnow {
+   margin-top: 80px;
+   margin-left: 10px;
+}
+
+.box2 .div1 .divtab {
+    position: absolute;
+    bottom: 18px;
+    left: 21.1px;
+    width: 230px;
+    height: 44px;
+}
+
+.box2 .div1 .divtab2 {
+    position: absolute;
+    margin-bottom: 21px;
+}
+
+.box2 .div2 a {
+    color: rgba(255, 255, 255, 1);
+    line-height: 22px;
+}
+
+.box2 .div2 a:hover {
+    text-decoration: underline rgba(255, 68, 0, 0.582);
+}
+
+.box2 .div1 .divtab .pp {
+    font-size: 18px;
+    font-family: "Rubik";
+    letter-spacing: 0px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.box2 .div1 .divtab .pp1 {
+    color: rgba(255, 255, 255, 0.5837);
+    font-size: 14px;
+    font-family: "Rubik";
+    letter-spacing: 0px;
+    font-weight: 300;
+}
+
+.box2 .div2::before {
+    content: " ";
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0001), rgba(23, 23, 23, 0.8762));
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 252px;
+    height: 368px;
+}
+
+.imgww {
+    width: 252px;
+    height: 368px;
+}
+
+.box2 .div0 {
+    border: 4px solid rgba(255, 255, 255, 1); 
+    width: 252px;
+    cursor: pointer;
+    display: grid;
+    grid-template-rows: repeat(3, 122px);
+}
+
+.grid .imgbg {
+    position: absolute;
+    top: 0px;
+} 
+
+.grid {
+    background-color: rgb(185, 20, 6);
+    transition: 0.4s;
+} 
+
+.grid1:hover {
+    opacity: 0.5;
+    width: 252px;
+    height: 122px;
+} 
+
+.grid2:hover {
+    opacity: 0.5;
+    width: 252px;
+    height: 122px;
+} 
+
+.grid3:hover {
+    opacity: 0.5;
+    width: 252px;
+    height: 122px;
+} 
+
+.grid a {
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-family: "Actor";
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.grid .p0 {
+    position: absolute;
+    z-index: 22;
+    margin-top: 64px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-family: "Actor";
+    font-weight: 400;
+    letter-spacing: 0px;
+    width: 252px;
+    height: 24px;
+    text-align: center;
+}
+
+.grid .img1 {
+    position: absolute;
+    z-index: 22;
+    margin-top: 33px;
+    margin-left: 113px;
+}
+
+.divnext .next {
+    position: absolute;
+    top: 0px;
+    right: -15px;
+}
+
+.box3 {
+    position: absolute;
+    top: 457px;
+    background-color: rgba(7, 19, 27, 1);
+    width: 1301px;
+    height: 410px;
+    display: grid;
+    grid-template-columns: 34px 500px 759px;
+}
+
+.trailer {
+    margin-left: 13.33px;
+    margin-top: 16px;
+}
+
+.shaper {
+   position: absolute;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+.content {
+    position: relative;
+    margin-left: 188px;
+    margin-top: -225px;
+    background-color: rgba(7, 19, 27, 1);
+    width: 270px;
+    height: 225px;
+    display: grid;
+    grid-template-columns: repeat(2, 72px);
+    grid-template-rows: repeat(6, 17px);
+    column-gap: 38px;
+    row-gap: 15px;
+}
+
+.content .divtext {
+    width: 257px;
+    height: 31px;
+}
+
+.divtext .p01 {
+    color: rgba(255, 255, 255, 0.7973);
+    font-size: 26px;
+    font-family: "Actor";
+    font-weight: 400;
+}
+
+.content li {
+    color: rgba(255, 255, 255, 0.7973);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.content li:nth-child(2) {
+    margin-top: 42px;
+}
+
+.content li:nth-child(4) {
+    margin-top: 42px;
+}
+
+.content li:nth-child(6) {
+    margin-top: 42px;
+}
+
+.content li:nth-child(6) {
+    width: 140px;
+}
+
+.content li:nth-child(8) {
+    margin-top: 42px;
+    width: 170px;
+}
+
+.content li:nth-child(10) {
+    margin-top: 42px;
+    width: 140px;
+}
+
+.content li:nth-child(12) {
+    margin-top: 42px;
+}
+
+.content .li1 {
+    color: rgba(112, 176, 255, 1);
+}
+
+.content li {
+    height: 17px;
+}
+
+.img2 {
+    margin-left: 10px;
+}
+
+.divtext2 {
+    width: 471px;
+    height: 63px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.divtext2 .ppp {
+    color: rgba(255, 255, 255, 0.7973);
+    font-size: 14px;
+    font-family: "Actor";
+    font-weight: 300;
+    letter-spacing: 0px;
+    line-height: 21px;
+}
+
+.pict {
+    margin-top: 14px;
+    width: 500px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(6, 80px);
+    grid-template-rows: 80px;
+    justify-content: space-around;
+}
+
+.divimg0 .imgscal1 {
+    border-radius: 5px;
+    transition: all 0.11s;
+}
+
+.pict .divimg0 {
+    transition: all 0.4s;
+}
+
+.pict .divimg0:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.galere {
+    position: relative;
+    margin-top: 15px;
+    margin-left: 100px;
+    display: flex;
+    width: 560px;
+    height: 409px;
+    overflow: hidden;
+    filter: drop-shadow(0 0 1px rgb(163, 160, 177));
+}
+
+.sliders input {
+    display: none;
+}
+
+.img00 {
+    width: 100%;
+    transition: all 0.8s ease;
+}
+
+.sliders {
+    width: 560px;
+    height: 409px;
+    display: flex;
+}
+
+.dots {
+    position: absolute;
+    left: 160px;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.dots label {
+    margin: 14px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid rgb(255, 255, 255);
+    transition: all 0.15s ease;
+}
+
+.dots label:hover {
+    transform: scale(1.5);
+    background-color: black;
+}
+
+#m1:checked ~ .video1 {
+    margin-left: 0;
+}
+
+#m2:checked ~ .video2 {
+    margin-left: -100%;
+}
+
+#m3:checked ~ .video3 {
+    margin-left: -200%;
+}
+
+#m4:checked ~ .video4 {
+    margin-left: -300%;
+}
+
+#m5:checked ~ .video5 {
+    margin-left: -400%;
+}
+
+#m6:checked ~ .video6 {
+    margin-left: -500%;
+}
+
+.divtex {
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    margin-top: 170px;
+    margin-left: 280px;
+}
+
+.p0p {
+    color: rgba(255, 255, 255, 0.612);
+    font-size: 20px;
+    font-family: "Actor";
+    font-weight: 400;
+    text-align: center;
+}
+
+.play {
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+
+.box4 {
+    position: absolute;
+    top: 880px;
+    left: 15px;
+    width: 1265px;
+    height: 381px;
+    display: grid;
+    grid-template-columns: 414px 414px 407px;
+    column-gap: 15px;
+}
+
+.divtext01 {
+    width: 326px;
+    height: 33px;
+    display: grid;
+    grid-template-columns: 140px 187px;
+}
+
+.div24 {
+    color: rgba(0, 0, 0, 0.7955);
+    font-size: 24px;
+    font-family: "Actor";
+    font-weight: 400;
+} 
+
+.divv .i0 {
+    color: rgba(74, 144, 226, 0.7955);
+}
+
+.divv .i1 {
+    color: rgba(0, 0, 0, 0.7955);
+    font-size: 18px;
+    font-family: "Rubik";
+    font-weight: 300400;
+}
+
+.div15 {
+    color: rgba(74, 144, 226, 1);
+    font-size: 15px;
+    font-family: "Actor";
+    font-weight: 300;
+    margin-top: 8px;
+    margin-left: 10px;
+} 
+
+.divgrid1 {
+    width: 414px;
+    height: 381px;
+    display: grid;
+    grid-template-columns: 414px;
+    grid-template-rows: 28px 108px 108px 108px;
+    row-gap: 10px;
+}
+
+.divv .p001 {
+    margin-left: 150px;
+    margin-top: -105px;
+    color: rgba(0, 0, 0, 0.7955);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 258px;
+    height: 100px;
+}
+
+.divgrid2 {
+    position: relative;
+    width: 414px;
+    height: 381px;
+    display: grid;
+    grid-template-rows: 181px 182px;
+    row-gap: 19px;
+}
+
+.divvv h1 {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.7955);
+    font-size: 23px;
+    font-weight: 400;
+    font-family: "Actor";
+    width: 160px;
+    height: 26px;
+}
+
+.divvv h2 {
+    position: absolute;
+    top: 23px;
+    right: 0px;
+    margin-top: -20px;
+    margin-left: 300px;
+    color: rgba(74, 144, 226, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Actor";
+    width: 120px;
+    height: 26px;
+    text-align: end;
+}
+
+.divgrid4 {
+    width: 414px;
+    height: 181px;
+    display: grid;
+    grid-template-columns: repeat(5, 83px);
+}
+
+.divimges {
+    margin-top: 30px;
+}
+
+.pp00 {
+    color: rgba(74, 144, 226, 1);
+    position: absolute;
+    bottom: 158px;
+    right: 0px;
+}
+
+.divgrid5 {
+    background-color: rgba(255, 255, 255, 0.468);
+    width: 407px;
+    height: 379px;
+    display: grid;
+    grid-template-rows: repeat(3, 101px);
+    row-gap: 22px;
+}
+
+.divgrid5 .divtab .imgcards {
+    transition: all 0.4s;
+}
+
+.divtab:hover .imgcar1 {
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+.divtab:hover .imgcar2 {
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+.divtab:hover .imgcar3 {
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+.divtab {
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.divgrid5 h1 {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.7955);
+    font-size: 23px;
+    font-weight: 400;
+    font-family: "Actor";
+    width: 240px;
+    height: 23px;
+}
+
+.box5 {
+    margin-top: 30px;
+    width: 1273px;
+    height: 383px;
+    display: grid;
+    grid-template-columns: 407px 435px 408px;
+    justify-content: space-between;
+}
+
+.divgrid3 {
+    height: 383px;
+    display: grid;
+    grid-template-rows: repeat(6, 56px);
+    row-gap: 2px;
+}
+
+.divimgs2 {
+    margin-top: -20px;
+}
+
+.divgrid3 h1 {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.7955);
+    font-size: 23px;
+    font-weight: 400;
+    font-family: "Actor";
+    width: 130px;
+    height: 23px;
+}
+
+.divgrid3 h2 {
+    margin-top: 5px;
+    margin-left: 344px;
+    color: rgba(74, 144, 226, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Actor";
+    width: 70px;
+    height: 26px;
+} 
+
+.divboxx {
+    margin-left: 12px;
+    position: relative;
+    width: 435px;
+    height: 383px;
+}
+
+.divboxx h1 {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.7955);
+    font-size: 23px;
+    font-weight: 400;
+    font-family: "Actor";
+    width: 240px;
+    height: 23px;
+}
+
+.img44 {
+    margin-top: 38px;
+}
+
+.divboxx .galaxy {
+    color: rgba(255, 255, 255, 0.826);
+    position: absolute;
+    bottom: 123px;
+    left: 12px;
+    width: 307px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Akronim";
+}
+
+.divboxx .tags {
+    position: absolute;
+    bottom: 82px;
+    left: 12px;
+    width: 423px;
+    height: 22px;
+}
+
+.divboxx .random {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    background-color: rgba(255, 255, 255, 0.1873);
+    width: 384px;
+    height: 53px;
+}
+
+.arrow {
+    margin-left: 125px;
+    margin-top: 14px;
+}
+
+.pran {
+    position: absolute;
+    bottom: 12px;
+    left: 165px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-weight: 300;
+    font-family: "Akronim";
+}
+
+.divgrid3 .h1box {
+    width: 320px;
+}
+
+.box6 {
+    position: absolute;
+    top: 825px;
+    left: -6px;
+    width: 1280px;
+    height: 147px;
+    display: grid;
+    grid-template-columns: repeat(16, 80px);
+    grid-template-rows: 147px;
+    column-gap: 2px;
+    overflow: hidden;
+}
+
+.box6 .grids2 {
+    margin-top: 34px;
+}
+
+.box6 .h1rv {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.7955);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Actor";
+    width: 240px;
+    height: 23px;
+}
+
+.imgsaz {
+    width: 80px;
+    height: 112px;
+}
+
+.box7 {
+    position: absolute;
+    top: 1000px;
+    left: -3px;
+    width: 1274px;
+    height: 256px;
+    display: grid;
+    grid-template-columns: 391px 202px 202px 396px;
+    column-gap: 27px;
+}
+
+.box7 .grids3:nth-child(1) {
+    height: 197px;
+}
+
+.box7 .grids3:nth-child(2) {
+    height: 164px;
+}
+
+.box7 .grids3:nth-child(3) {
+    height: 167px;
+}
+
+.box7 .grids3:nth-child(4) {
+    height: 203px;
+}
+
+.grids3 {
+   display: grid;
+   grid-template-rows: 38px 61px 21px;
+   align-content: end;
+   row-gap: 15px;
+} 
+
+.grids3 .h1imd {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.7955);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Actor";
+    width: 240px;
+    height: 23px;
+}
+
+.grid4 .img10 {
+    margin-left: 3px;
+}
+
+.grid4 .ptext {
+    color: rgba(0, 0, 0, 0.7955);
+    font-size: 14px;
+    font-family: "Actor";
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.grid4 .pimd {
+    color: rgba(74, 144, 226, 1);
+    font-size: 16px;
+    font-family: "Actor";
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.gr3 {
+    display: grid;
+    grid-template-columns: repeat(3, 54px);
+    grid-template-rows: repeat(2, 54px);
+    column-gap: 15px;
+    row-gap: 14px;
+}
+
+.gr4 {
+    display: grid;
+    grid-template-columns: repeat(3, 63px);
+    grid-template-rows: repeat(3, 63px);
+    justify-content: center;
+    column-gap: 3px;
+    row-gap: 3px;
+}
+
+.icon2 {
+    height: 63px;
+    margin-top: 62px;
+}
+
+.divgridd {
+    margin-top: -51px;
+    width: 396px;
+    height: 203px;
+    display: grid;
+    grid-template-columns: repeat(3, 128px);
+    column-gap: 6px;
+}
+
+.divgridd p {
+    color: rgba(74, 144, 226, 1);
+    font-size: 14px;
+    font-family: "Actor";
+    line-height: 29px;
+    font-weight: 300;
+}
+
+.divgridd .text5:nth-child(1) {
+    height: 203px;
+}
+
+.divgridd .text5:nth-child(2) {
+    height: 203px;
+}
+
+.divgridd .text5:nth-child(3) {
+    height: 174px;
+}
+
+.box8 {
+    position: absolute;
+    top: 1280px;
+    left: 2px;
+    width: 1268px;
+    height: 29px;
+}
+
+
+
+
+
